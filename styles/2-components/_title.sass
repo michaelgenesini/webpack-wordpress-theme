@@ -1,0 +1,25 @@
+.title
+    font-size: 2em
+    line-height: 1.5em
+    font-weight: bold
+    color: $black
+    margin: 0 auto 20px auto
+    &.title--white
+        color: white
+    &.title--black
+        color: $black
+    &.title--line
+        > *
+            position: relative
+            display: inline-block
+            background-color: $white
+            padding: 0 20px
+        &:before
+            position: absolute
+            content: ""
+            height: 1px
+            width: calc( 100% - 30px )
+            top: 40%
+            left: 15px
+            z-index: 0
+            background-color: rgba(#D7D7D7, .7)
