@@ -19,24 +19,20 @@ to tell `webpack-dev-server` where to proxy to wordpress.
 
 ```
 npm run dev
-
 ```
 To open the dev dashboard
 
 ```
 npm run dev:dash
-
 ```
 To open the bundle analyzer
 
 ```
 npm run dev:analyzer
-
 ```
 
 #### Build for production
 
 ```
 npm run build
-
 ```
